@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.bg-mocha-mousse-70 {
+  background-color: rgba(139,69,19,0.7);
+}
+.bg-lemon-beige-70{
+  background-color: #ffedc8e6;
+}
+.bg-brown-500{
+  background-color: #964b00cc;
+}
+.bg-brown-600{
+  background-color: #aa550a;
+}
+
