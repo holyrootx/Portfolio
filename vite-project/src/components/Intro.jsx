@@ -14,15 +14,16 @@ function Intro() {
             {/* 실제 콘텐츠 */}
             <div className="relative z-10 text-center text-white flex flex-col h-1/2 justify-evenly">
                 <h1 className="font-black-han text-4xl mb-2">정성주 Portfolio</h1>
-                <p className="font-noto text-lg">안녕하세요 꾸준함을 중요시하는 개발자 정성주입니다.</p>
+                <p className="font-noto text-lg">안녕하세요</p>
+                <p className="font-noto text-lg">꾸준함을 중요시하는 개발자 정성주입니다.</p>
                 <a
                     href="#Profile"
                     className="bg-mocha-mousse text-white px-6 py-2 rounded-full shadow hover:bg-mocha-mousse/80 transition-colors"
                 >
                     프로필
                 </a>
+                
             </div>
-
         </section>
     );
 }
