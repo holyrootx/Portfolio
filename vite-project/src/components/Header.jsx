@@ -43,10 +43,13 @@ function Header() {
             }}
         >
             <div className="w-full max-w-[71.25rem] mx-auto flex justify-between h-[4.5rem] py-5 px-6 items-center">
-                <span className={`font-black-han text-2xl 
-                    ${scrolled ? "text-black hover:text-orange-500 cursor-pointer" : "text-gray-300 hover:text-white cursor-pointer"}`}>
+                <span
+                    onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}
+                    className={`font-black-han text-2xl 
+                        ${scrolled ? "text-black hover:text-orange-500 cursor-pointer" : "text-gray-300 hover:text-white cursor-pointer"}`}
+                >
                     정성주 Portfolio
-                </span>
+                </span> 
                 {/* 데스크탑 메뉴 */}
                 <nav className="hidden md:flex">
                     {navItems.map((text) => (
