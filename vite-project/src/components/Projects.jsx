@@ -27,20 +27,24 @@ function Projects() {
                 "관리자 승인 시스템",
                 "전역 예외 처리 및 공통 API 설계"
             ],
-            github: "https://github.com/seonoh-k/charti"
+            github: "https://github.com/seonoh-k/charti",
+            url : "https://charti.kr",
+            canSee : false,
         },
         {
             title: "BirdClown",
             description: "파티 서비스 홍보 웹사이트",
-            stack: "설계 중",
+            stack: "AWS S3 SDK · JPA · Spring Boot · Spring Security · Swagger UI · Thumbnailator ",
             features: [
-                "설계중1",
-                "설계중2",
-                "설계중3",
-                "설계중4",
-                "설계중5",
+                "관리자 인증 및 보안",
+                "앨범 및 사진 관리",
+                "클라우드 스토리지 연동",
+                "자동 이미지 리사이징",
+                "API 명세 자동화 (Swagger)",
             ],
-            github: "https://github.com/seonoh-k/charti"
+            github: "https://github.com/seonoh-k/BirdClown",
+            url : "https://birdclown.kr",
+            canSee : true,
         }
     ];
 

@@ -26,7 +26,8 @@ function Archive(){
                             alt="Notion"
                         />
                         <p className="text-l font-black-han text-xl my-2">노션 주소</p>
-                        <p className="text-base font-noto text-xl my-2">공부 등 개발 관련 저장소[이력서 보러가기]</p>
+                        <p className="text-base font-noto text-xl my-2">공부 등 개발 관련 저장소</p>
+                        <p className="text-base font-noto text-xl my-2">[이력서 보러가기]</p>
                     </div>
                 </a>
                 {/* Github */}
@@ -46,7 +47,7 @@ function Archive(){
                     </div>
                 </a>
                 {/* Blog */}
-                <a
+                {/* <a
                     href="https://your-tistory-blog.tistory.com/"
                     target="_blank"
                     rel="noopener"
@@ -60,7 +61,7 @@ function Archive(){
                         <p className="text-l font-black-han text-xl my-2">티스토리 블로그</p>
                         <p className="text-base font-noto text-xl my-2">개인 개발/기록 아카이브</p>
                     </div>
-                </a>
+                </a> */}
             </div>
             
 

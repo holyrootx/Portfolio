@@ -60,15 +60,15 @@ function Profile() {
                     </div>
                 </div>
                 {/* 연락처 */}
-                <div className="flex bg-gray-50 rounded-lg p-6 min-h-[120px]">
+                {/* <div className="flex bg-gray-50 rounded-lg p-6 min-h-[120px]">
                     <div className="flex flex-col items-center justify-center mr-6 min-w-[60px]">
                         <Smartphone className="w-12 h-12 text-mocha-mousse mb-2" />
                     </div>
                     <div className="flex flex-col justify-center">
                         <span className="text-xs text-gray-500 font-bold mb-1">연락처</span>
-                        <span className="text-lg font-bold">010-9014-1171</span>
+                        <span className="text-lg font-bold">010-XXXX-XXXX</span>
                     </div>
-                </div>
+                </div> */}
                 {/* 학력 */}
                 <div className="flex bg-gray-50 rounded-lg p-6 min-h-[120px]">
                     <div className="flex flex-col items-center justify-center mr-6 min-w-[60px]">
@@ -76,7 +76,8 @@ function Profile() {
                     </div>
                     <div className="flex flex-col justify-center">
                         <span className="text-xs text-gray-500 font-bold mb-1">학력</span>
-                        <span className="text-lg font-bold">한국폴리텍대학교(정보통신 2년제 졸업)</span>
+                        <span className="text-lg font-bold">한국폴리텍대학교</span>
+                        <span className="text-lg font-bold">(정보통신 2년제 졸업)</span>
                     </div>
                 </div>
             </div>

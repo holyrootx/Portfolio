@@ -62,6 +62,22 @@ const ProjectModal = ({ project, onClose }) => {
                         📂 GitHub에서 자세히 보기
                     </a>
                 </div>
+                <div className="mt-4">
+                    
+                    {project.canSee ?
+                    <a
+                        href={project.url}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="text-blue-600 underline text-sm hover:text-blue-800"
+                    >
+                        👀 서비스 보기
+                    </a>
+                    : null    
+                    }
+                    
+                    
+                </div>
             </div>
         </div>
     );
